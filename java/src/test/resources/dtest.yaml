@@ -1,0 +1,13 @@
+baseImage: centos
+requiredPackages:
+  - java-1.8.0-openjdk
+  - java-1.8.0-openjdk-devel
+projectName: orc
+projectDir: orc/java
+javaPackages:
+  - org.apache.orc
+dirs:
+  - dir: java/core
+  - dir: java/mapreduce
+  - dir: java/shims
+  - dir: java/tools

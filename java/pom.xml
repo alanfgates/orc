@@ -170,6 +170,11 @@
         <artifactId>maven-project-info-reports-plugin</artifactId>
         <version>2.9</version>
       </plugin>
+      <plugin>
+        <groupId>org.dtest</groupId>
+        <artifactId>dtest-maven-plugin</artifactId>
+        <version>0.2-SNAPSHOT</version>
+      </plugin>
     </plugins>
     <pluginManagement>
       <plugins>
